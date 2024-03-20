@@ -21,7 +21,7 @@ export const SecondBanner = () => {
         scale={[0.5, 1]}
         className={s.image01}
       >
-        <Image src={img01} />
+        <Image src={img01} alt="" />
       </Parallax>
       <Parallax
         translateX={[-110, 0, 'easeOutBack']}
@@ -30,7 +30,7 @@ export const SecondBanner = () => {
         scale={[0.5, 1]}
         className={s.image02}
       >
-        <Image src={img02} />
+        <Image src={img02} alt="" />
       </Parallax>
       <Parallax
         translateX={[-20, 10, 'easeOutBack']}
@@ -39,7 +39,7 @@ export const SecondBanner = () => {
         scale={[0.5, 1]}
         className={s.image03}
       >
-        <Image src={img03} />
+        <Image src={img03} alt="" />
       </Parallax>
       <Parallax
         translateX={[110, 20, 'easeOutBack']}
@@ -48,7 +48,7 @@ export const SecondBanner = () => {
         scale={[0.5, 1]}
         className={s.image04}
       >
-        <Image src={img04} />
+        <Image src={img04} alt="" />
       </Parallax>
       <Parallax
         translateX={[-50, 10, 'easeOutBack']}
@@ -57,7 +57,7 @@ export const SecondBanner = () => {
         scale={[0, 1]}
         className={s.image05}
       >
-        <Image src={img05} />
+        <Image src={img05} alt="" />
       </Parallax>
       <Parallax
         translateX={[115, 11, 'easeOutBack']}

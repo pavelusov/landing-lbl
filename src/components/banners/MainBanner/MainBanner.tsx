@@ -5,7 +5,6 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 export const MainBanner = () => {
   return (
     <ParallaxBanner
-      expanded={true}
       layers={[
         { image: '/main_banner_bg.svg', speed: 0 },
         {
@@ -21,7 +20,6 @@ export const MainBanner = () => {
         { image: '/main_banner_fg.svg', speed: 20, scale: [-2, 1, 'easeOutCubic'] },
       ]}
       className="aspect-[2/1]"
-      scale={[0, 5, 'easeOutCubic']}
     />
   );
 }

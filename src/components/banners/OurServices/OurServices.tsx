@@ -8,7 +8,7 @@ import CodeIcon from '@mui/icons-material/Code';
 
 export const OurServices = () => {
   return (
-    <Box sx={{ width: 1250 }} spacing={5}>
+    <div style={{ width: 1250 }}>
       <Typography variant="h2" sx={{ color: 'white' }} mb={7} gutterBottom>
         <CodeIcon sx={{ color: 'rgba(84,84,84,0.87)', fontSize: 50, marginRight: 2 }} />Разработка приложения <br/>
         <CodeIcon sx={{ color: 'rgba(84,84,84,0.87)', fontSize: 50, marginRight: 2 }} />с начала и до конца
@@ -43,6 +43,6 @@ export const OurServices = () => {
           />
         </Grid>
       </Grid>
-    </Box>
+    </div>
   )
 }

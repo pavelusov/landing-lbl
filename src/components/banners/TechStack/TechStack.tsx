@@ -26,27 +26,27 @@ export const TechStack = () => {
       </Typography>
       <TechItem
         reverse
-        icon={<Image src={TypescriptIcon} width={200} height={200} />}
+        icon={<Image src={TypescriptIcon} width={200} height={200} alt="" />}
         title="Typescript"
       >
         TypeScript - это JavaScript с синтаксисом для типов. TypeScript - это строго типизированный язык программирования, основанный на JavaScript, предоставляющий вам лучшие инструменты в любом масштабе.
       </TechItem>
       <TechItem
-        icon={<Image src={ReactIcon} width={200} height={200} />}
+        icon={<Image src={ReactIcon} width={200} height={200} alt="" />}
         title="React"
       >
         Библиотека для веб-пользовательских интерфейсов. Создавайте пользовательские интерфейсы из компонентов.
       </TechItem>
       <TechItem
         reverse
-        icon={<Image src={NextJSIcon} width={250} height={250} />}
+        icon={<Image src={NextJSIcon} width={250} height={250} alt="" />}
         title="NextJS"
       >
         Next.js это фреймворк React для создания полнофункциональных веб-приложений.
         Компоненты React используются для создания пользовательских интерфейсов и Next.js для дополнительных функций и оптимизации.
       </TechItem>
       <TechItem
-        icon={<Image src={CSSIcon} width={200} height={200} />}
+        icon={<Image src={CSSIcon} width={200} height={200} alt="" />}
         title="Custom CSS"
       >
         Мы создаем стили в соответствии с вашим дизайном.

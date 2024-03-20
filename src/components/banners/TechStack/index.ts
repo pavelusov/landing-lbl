@@ -1,3 +1,3 @@
-import { TechStack } from './TextBanner';
+import { TechStack } from './TechStack';
 
 export default TechStack;
