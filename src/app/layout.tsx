@@ -18,6 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <a
+          href="mailto:photoburg@yandex.ru"
+          className="fixed top-4 right-4 z-50 text-sm sm:text-base text-white/90 hover:text-cyan-400 transition-colors tracking-wide"
+        >
+          photoburg@yandex.ru
+        </a>
         <Providers>{children}</Providers>
       </body>
     </html>
