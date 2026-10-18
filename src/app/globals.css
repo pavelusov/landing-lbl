@@ -8,9 +8,15 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: #262626;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  color: #f4f1ea;
+  background: #121212;
 }
 
 @layer utilities {
